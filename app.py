@@ -51,6 +51,13 @@ age = st.slider("Your Age", 18, 80, 30)
 sex = st.selectbox("Sex Assigned at Birth", ["Male", "Female"])
 genetic_sensitivity = st.selectbox("Known Genetic Sensitivity to Radiation?", ["No", "Yes"])
 
+st.write("✅ Test: The app did not crash so far!")
+
+fig, ax = plt.subplots()
+ax.plot([1, 2, 3], [1, 4, 9])
+st.pyplot(fig)
+
+
 # ---------------------------
 # Real-Time Data
 # ---------------------------
